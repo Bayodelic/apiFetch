@@ -32,6 +32,7 @@ fetch(urlConIdCliente)
     .then(data =>{
       //Utilizamos la plantilla para mostrar los datos en un html
     const contenidoCliente = `
+        <h1>Cliente</h1>
         <p>Nombre: ${data.name}</p>
         <p>Username: ${data.username}</p>
         <p>Email: ${data.email}</p>
